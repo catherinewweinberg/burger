@@ -46,7 +46,7 @@ var orm = {
       if (err) {
         throw err;
       }
-      console.long(res);
+      console.log(res);
       cb(res);
     });
   },
